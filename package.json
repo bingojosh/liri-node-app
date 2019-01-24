@@ -1,0 +1,25 @@
+{
+  "name": "Node-Assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assignment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingojosh/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bingojosh/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/bingojosh/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7"
+  }
+}
