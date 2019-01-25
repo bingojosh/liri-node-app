@@ -1,5 +1,18 @@
 # Liri Node Application
 
+## Downloading Liri And Preparing Her To Run
+If Liri is already installed on your computer skip ahead to "How to use Liri" section.
+1. You must have Node.js installed on your computer.
+2. Clone this repository down to your computer
+3. In the command line in liri-node-app, run  "npm install" - This will automatically install the necessary components to run Liri
+4. Create a file called .env in the same folder as liri with the following code"
+    ```
+    # Spotify API keys
+
+    SPOTIFY_ID=your-spotify-id
+    SPOTIFY_SECRET=your-spotify-secret
+    ```
+    Where "your-spotify-id" and "your-spotify-secret" are key acquired from developer.spotify.com. For more information on how to acquire api keys for spotify check out https://developer.spotify.com/documentation/web-api/quick-start/
 ## How to use Liri
 <ul>
 <h3>Step 1
